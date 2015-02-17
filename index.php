@@ -15,5 +15,7 @@
   <a href="http://accessibility.psu.edu/imageshtml">Links</a>
   <IMG SRC="http://media.veryfunnypics.eu/2014/01/funny-pics-baby-mirror-your-hair-looks-funny.jpg"alt="Bilde">
   </img>
+  <script type="text/javascript" src="js/app.js">
+  </script>
   </body>
 </html>
