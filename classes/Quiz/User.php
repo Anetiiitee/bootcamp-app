@@ -2,15 +2,16 @@
 
 namespace Bootcamp\Demo\Quiz;
 
-class User {
+class User
+{
   /**
   * user id
   * @param $id integer
   */
-  protected $id;
+    protected $id;
   /**
   * user name
   * @param $name string
   */
-  protected $name;
+    protected $name;
 }

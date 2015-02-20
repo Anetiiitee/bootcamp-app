@@ -2,50 +2,52 @@
 
 namespace Bootcamp\Demo\Quiz;
 
-class Question {
+class Question
+{
   /**
   * array of answers
   * @param $options array
   */
-  protected $options;
+    protected $options;
   /**
   * id of question
   * @param $id int
   */
-  protected $id;
+    protected $id;
   /**
   * title of question
   * @param $title string
   */
-  protected $title;
+    protected $title;
   /**
   * question type
   * @param $type int
   */
-  protected $type;
+    protected $type;
   /**
   * add option
   * @return option
   */
-  public function addOption(Option $option)
-  {
-    array_push($this->options,$option);
-  }
-  public function __construct($title)
-  {
-    $this->title=$title;
-    $this->options=[];
-  }
-  public function isMultiAnswer() {
-    $count=0;
-    foreach($this->options as $option) {
-    if($option->isCorrect()===true){
-      $count++;
+    public function addOption(Option $option)
+    {
+        array_push($this->options, $option);
     }
-    if($count>1) {
-      return true;
+    public function __construct($title)
+    {
+        $this->title=$title;
+        $this->options=[];
     }
+    public function isMultiAnswer()
+    {
+        $count=0;
+        foreach ($this->options as $option) {
+            if ($option->isCorrect()===true) {
+                $count++;
+            }
+            if ($count>1) {
+                return true;
+            }
+        }
+        return false;
     }
-    return false;
-  }
-  }
+}
