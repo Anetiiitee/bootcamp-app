@@ -1,4 +1,4 @@
 <?php
-var_dump(__DIR__);
-die;
-//include __DIR__."/../vendor/autoload.php";
+//var_dump(__DIR__);
+//die;
+require __DIR__."/../vendor/autoload.php";
