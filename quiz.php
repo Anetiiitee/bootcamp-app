@@ -27,6 +27,6 @@ foreach ($options as $option)
   $quiz->addQuestion($question);
 
 
-//var_dump($question);
-//var_dump($question->isMultiAnswer());
+var_dump($question);
+var_dump($question->isMultiAnswer());
 var_dump($quiz);
