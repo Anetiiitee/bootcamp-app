@@ -24,4 +24,24 @@ $option->shouldReceive("isCorrect")
 $question->addOption($option);
 $this->assertTrue($question->isMultiAnswer());
 }
+
+public function testGetAnswerCount()
+{
+  $question=new Question("dummy");
+  $this->assertEquals(0, $question->getAnswerCount());
+
+  $option=m::mock("\Bootcamp\Demo\Quiz\Option");
+  $option->shouldReceive("isCorrect")
+         ->andReturn(true);
+
+  $question->addOption($option);
+  $this->assertEquals(1, $question->getAnswerCount());
+
+  $option=m::mock("\Bootcamp\Demo\Quiz\Option");
+  $option->shouldReceive("isCorrect")
+         ->andReturn(true);
+
+  $question->addOption($option);
+  $this->assertEquals(2, $question->getAnswerCount());
+  }
 }

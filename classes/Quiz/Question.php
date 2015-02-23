@@ -44,4 +44,9 @@ class Question
     {
         return $this->correctAnswerCount>1;
     }
+
+    public function getAnswerCount()
+    {
+        return Count($this->options);
+    }
 }

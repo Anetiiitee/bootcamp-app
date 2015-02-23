@@ -1,0 +1,491 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-browserify',
+1 verbose cli   'v',
+1 verbose cli   'vinly-source-stream',
+1 verbose cli   'vinly-buffer',
+1 verbose cli   'gulp-uglify',
+1 verbose cli   'gulp-sourcemaps' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 warn package.json @ No description
+6 warn package.json @ No repository field.
+7 warn package.json @ No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'gulp-browserify', null ]
+10 verbose cache add name=undefined spec="gulp-browserify" args=["gulp-browserify",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'gulp-browserify',
+11 verbose parsed url   path: 'gulp-browserify',
+11 verbose parsed url   href: 'gulp-browserify' }
+12 verbose cache add [ 'v', null ]
+13 verbose cache add name=undefined spec="v" args=["v",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'v',
+14 verbose parsed url   path: 'v',
+14 verbose parsed url   href: 'v' }
+15 verbose cache add [ 'vinly-source-stream', null ]
+16 verbose cache add name=undefined spec="vinly-source-stream" args=["vinly-source-stream",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'vinly-source-stream',
+17 verbose parsed url   path: 'vinly-source-stream',
+17 verbose parsed url   href: 'vinly-source-stream' }
+18 verbose cache add [ 'vinly-buffer', null ]
+19 verbose cache add name=undefined spec="vinly-buffer" args=["vinly-buffer",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'vinly-buffer',
+20 verbose parsed url   path: 'vinly-buffer',
+20 verbose parsed url   href: 'vinly-buffer' }
+21 verbose cache add [ 'gulp-uglify', null ]
+22 verbose cache add name=undefined spec="gulp-uglify" args=["gulp-uglify",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'gulp-uglify',
+23 verbose parsed url   path: 'gulp-uglify',
+23 verbose parsed url   href: 'gulp-uglify' }
+24 verbose cache add [ 'gulp-sourcemaps', null ]
+25 verbose cache add name=undefined spec="gulp-sourcemaps" args=["gulp-sourcemaps",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'gulp-sourcemaps',
+26 verbose parsed url   path: 'gulp-sourcemaps',
+26 verbose parsed url   href: 'gulp-sourcemaps' }
+27 silly lockFile f81d5b93-gulp-browserify gulp-browserify
+28 verbose lock gulp-browserify /home/vagrant/.npm/f81d5b93-gulp-browserify.lock
+29 silly lockFile 7a38d8cb-v v
+30 verbose lock v /home/vagrant/.npm/7a38d8cb-v.lock
+31 silly lockFile e4e9f581-vinly-source-stream vinly-source-stream
+32 verbose lock vinly-source-stream /home/vagrant/.npm/e4e9f581-vinly-source-stream.lock
+33 silly lockFile e54d3690-vinly-buffer vinly-buffer
+34 verbose lock vinly-buffer /home/vagrant/.npm/e54d3690-vinly-buffer.lock
+35 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+36 verbose lock gulp-uglify /home/vagrant/.npm/15fab96b-gulp-uglify.lock
+37 silly lockFile 5c5345b9-gulp-sourcemaps gulp-sourcemaps
+38 verbose lock gulp-sourcemaps /home/vagrant/.npm/5c5345b9-gulp-sourcemaps.lock
+39 silly lockFile f81d5b93-gulp-browserify gulp-browserify
+40 silly lockFile f81d5b93-gulp-browserify gulp-browserify
+41 silly lockFile 7a38d8cb-v v
+42 silly lockFile 7a38d8cb-v v
+43 silly lockFile e4e9f581-vinly-source-stream vinly-source-stream
+44 silly lockFile e4e9f581-vinly-source-stream vinly-source-stream
+45 silly lockFile e54d3690-vinly-buffer vinly-buffer
+46 silly lockFile e54d3690-vinly-buffer vinly-buffer
+47 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+48 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+49 silly lockFile 5c5345b9-gulp-sourcemaps gulp-sourcemaps
+50 silly lockFile 5c5345b9-gulp-sourcemaps gulp-sourcemaps
+51 verbose addNamed [ 'gulp-browserify', '' ]
+52 verbose addNamed [ null, '*' ]
+53 silly lockFile 24eaa615-gulp-browserify gulp-browserify@
+54 verbose lock gulp-browserify@ /home/vagrant/.npm/24eaa615-gulp-browserify.lock
+55 verbose addNamed [ 'v', '' ]
+56 verbose addNamed [ null, '*' ]
+57 silly lockFile 992d3292-v v@
+58 verbose lock v@ /home/vagrant/.npm/992d3292-v.lock
+59 verbose addNamed [ 'vinly-source-stream', '' ]
+60 verbose addNamed [ null, '*' ]
+61 silly lockFile e2f7789b-vinly-source-stream vinly-source-stream@
+62 verbose lock vinly-source-stream@ /home/vagrant/.npm/e2f7789b-vinly-source-stream.lock
+63 verbose addNamed [ 'vinly-buffer', '' ]
+64 verbose addNamed [ null, '*' ]
+65 silly lockFile 42644352-vinly-buffer vinly-buffer@
+66 verbose lock vinly-buffer@ /home/vagrant/.npm/42644352-vinly-buffer.lock
+67 verbose addNamed [ 'gulp-uglify', '' ]
+68 verbose addNamed [ null, '*' ]
+69 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+70 verbose lock gulp-uglify@ /home/vagrant/.npm/044a9113-gulp-uglify.lock
+71 verbose addNamed [ 'gulp-sourcemaps', '' ]
+72 verbose addNamed [ null, '*' ]
+73 silly lockFile e21003b7-gulp-sourcemaps gulp-sourcemaps@
+74 verbose lock gulp-sourcemaps@ /home/vagrant/.npm/e21003b7-gulp-sourcemaps.lock
+75 silly addNameRange { name: 'gulp-browserify', range: '*', hasData: false }
+76 silly addNameRange { name: 'v', range: '*', hasData: false }
+77 silly addNameRange { name: 'vinly-source-stream', range: '*', hasData: false }
+78 silly addNameRange { name: 'vinly-buffer', range: '*', hasData: false }
+79 silly addNameRange { name: 'gulp-uglify', range: '*', hasData: false }
+80 silly addNameRange { name: 'gulp-sourcemaps', range: '*', hasData: false }
+81 verbose request where is /v
+82 verbose request registry https://registry.npmjs.org/
+83 verbose request id e5fd95b16a52fda6
+84 verbose url raw /v
+85 verbose url resolving [ 'https://registry.npmjs.org/', './v' ]
+86 verbose url resolved https://registry.npmjs.org/v
+87 verbose request where is https://registry.npmjs.org/v
+88 info trying registry request attempt 1 at 14:58:42
+89 http GET https://registry.npmjs.org/v
+90 verbose request where is /vinly-source-stream
+91 verbose request registry https://registry.npmjs.org/
+92 verbose url raw /vinly-source-stream
+93 verbose url resolving [ 'https://registry.npmjs.org/', './vinly-source-stream' ]
+94 verbose url resolved https://registry.npmjs.org/vinly-source-stream
+95 verbose request where is https://registry.npmjs.org/vinly-source-stream
+96 info trying registry request attempt 1 at 14:58:42
+97 http GET https://registry.npmjs.org/vinly-source-stream
+98 verbose request where is /vinly-buffer
+99 verbose request registry https://registry.npmjs.org/
+100 verbose url raw /vinly-buffer
+101 verbose url resolving [ 'https://registry.npmjs.org/', './vinly-buffer' ]
+102 verbose url resolved https://registry.npmjs.org/vinly-buffer
+103 verbose request where is https://registry.npmjs.org/vinly-buffer
+104 info trying registry request attempt 1 at 14:58:42
+105 http GET https://registry.npmjs.org/vinly-buffer
+106 verbose request where is /gulp-uglify
+107 verbose request registry https://registry.npmjs.org/
+108 verbose url raw /gulp-uglify
+109 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-uglify' ]
+110 verbose url resolved https://registry.npmjs.org/gulp-uglify
+111 verbose request where is https://registry.npmjs.org/gulp-uglify
+112 info trying registry request attempt 1 at 14:58:42
+113 http GET https://registry.npmjs.org/gulp-uglify
+114 verbose request where is /gulp-sourcemaps
+115 verbose request registry https://registry.npmjs.org/
+116 verbose url raw /gulp-sourcemaps
+117 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-sourcemaps' ]
+118 verbose url resolved https://registry.npmjs.org/gulp-sourcemaps
+119 verbose request where is https://registry.npmjs.org/gulp-sourcemaps
+120 info trying registry request attempt 1 at 14:58:42
+121 http GET https://registry.npmjs.org/gulp-sourcemaps
+122 verbose request where is /gulp-browserify
+123 verbose request registry https://registry.npmjs.org/
+124 verbose url raw /gulp-browserify
+125 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-browserify' ]
+126 verbose url resolved https://registry.npmjs.org/gulp-browserify
+127 verbose request where is https://registry.npmjs.org/gulp-browserify
+128 info trying registry request attempt 1 at 14:58:42
+129 verbose etag "84NX5Z77JIQBIUO2HNBLZX1MO"
+130 http GET https://registry.npmjs.org/gulp-browserify
+131 http 200 https://registry.npmjs.org/gulp-uglify
+132 silly registry.get cb [ 200,
+132 silly registry.get   { date: 'Mon, 23 Feb 2015 14:58:42 GMT',
+132 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+132 silly registry.get     etag: '"ELLVPBIHE00BE90ENPPI4YEPG"',
+132 silly registry.get     'content-type': 'application/json',
+132 silly registry.get     'cache-control': 'max-age=60',
+132 silly registry.get     'content-length': '23220',
+132 silly registry.get     'accept-ranges': 'bytes',
+132 silly registry.get     via: '1.1 varnish',
+132 silly registry.get     age: '29',
+132 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+132 silly registry.get     'x-cache': 'HIT',
+132 silly registry.get     'x-cache-hits': '1',
+132 silly registry.get     'x-timer': 'S1424703522.868942,VS0,VE0',
+132 silly registry.get     vary: 'Accept',
+132 silly registry.get     'keep-alive': 'timeout=10, max=50',
+132 silly registry.get     connection: 'Keep-Alive' } ]
+133 silly addNameRange number 2 { name: 'gulp-uglify', range: '*', hasData: true }
+134 silly addNameRange versions [ 'gulp-uglify',
+134 silly addNameRange   [ '0.0.1',
+134 silly addNameRange     '0.0.3',
+134 silly addNameRange     '0.0.4',
+134 silly addNameRange     '0.1.0',
+134 silly addNameRange     '0.2.0',
+134 silly addNameRange     '0.2.1',
+134 silly addNameRange     '0.3.0',
+134 silly addNameRange     '0.3.1',
+134 silly addNameRange     '0.3.2',
+134 silly addNameRange     '1.0.0-0',
+134 silly addNameRange     '1.0.0',
+134 silly addNameRange     '1.0.1',
+134 silly addNameRange     '1.0.2',
+134 silly addNameRange     '1.1.0' ] ]
+135 verbose addNamed [ 'gulp-uglify', '1.1.0' ]
+136 verbose addNamed [ '1.1.0', '1.1.0' ]
+137 silly lockFile 91b67821-gulp-uglify-1-1-0 gulp-uglify@1.1.0
+138 verbose lock gulp-uglify@1.1.0 /home/vagrant/.npm/91b67821-gulp-uglify-1-1-0.lock
+139 silly lockFile 8a0655e2-ulp-uglify-gulp-uglify-1-1-0-tgz https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+140 verbose lock https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz /home/vagrant/.npm/8a0655e2-ulp-uglify-gulp-uglify-1-1-0-tgz.lock
+141 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz',
+141 verbose addRemoteTarball   'd50cac9c92226454528d0dd0f6ed99920672ba5c' ]
+142 info retry fetch attempt 1 at 14:58:42
+143 verbose fetch to= /tmp/npm-5158-haHM2vCZ/registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+144 http GET https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+145 http 404 https://registry.npmjs.org/vinly-source-stream
+146 verbose headers { date: 'Mon, 23 Feb 2015 14:58:42 GMT',
+146 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+146 verbose headers   'content-type': 'application/json',
+146 verbose headers   'cache-control': 'max-age=0',
+146 verbose headers   'content-length': '52',
+146 verbose headers   'accept-ranges': 'bytes',
+146 verbose headers   via: '1.1 varnish',
+146 verbose headers   age: '0',
+146 verbose headers   'x-served-by': 'cache-fra1226-FRA',
+146 verbose headers   'x-cache': 'MISS',
+146 verbose headers   'x-cache-hits': '0',
+146 verbose headers   'x-timer': 'S1424703522.865549,VS0,VE105',
+146 verbose headers   'keep-alive': 'timeout=10, max=50',
+146 verbose headers   connection: 'Keep-Alive' }
+147 silly registry.get cb [ 404,
+147 silly registry.get   { date: 'Mon, 23 Feb 2015 14:58:42 GMT',
+147 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+147 silly registry.get     'content-type': 'application/json',
+147 silly registry.get     'cache-control': 'max-age=0',
+147 silly registry.get     'content-length': '52',
+147 silly registry.get     'accept-ranges': 'bytes',
+147 silly registry.get     via: '1.1 varnish',
+147 silly registry.get     age: '0',
+147 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+147 silly registry.get     'x-cache': 'MISS',
+147 silly registry.get     'x-cache-hits': '0',
+147 silly registry.get     'x-timer': 'S1424703522.865549,VS0,VE105',
+147 silly registry.get     'keep-alive': 'timeout=10, max=50',
+147 silly registry.get     connection: 'Keep-Alive' } ]
+148 silly lockFile e2f7789b-vinly-source-stream vinly-source-stream@
+149 silly lockFile e2f7789b-vinly-source-stream vinly-source-stream@
+150 http 304 https://registry.npmjs.org/gulp-browserify
+151 silly registry.get cb [ 304,
+151 silly registry.get   { date: 'Mon, 23 Feb 2015 14:58:42 GMT',
+151 silly registry.get     server: 'Apache',
+151 silly registry.get     via: '1.1 varnish',
+151 silly registry.get     'last-modified': 'Mon, 23 Feb 2015 14:58:42 GMT',
+151 silly registry.get     'cache-control': 'max-age=60',
+151 silly registry.get     etag: '"84NX5Z77JIQBIUO2HNBLZX1MO"',
+151 silly registry.get     age: '25',
+151 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+151 silly registry.get     'x-cache': 'HIT',
+151 silly registry.get     'x-cache-hits': '1',
+151 silly registry.get     'x-timer': 'S1424703522.971497,VS0,VE0',
+151 silly registry.get     vary: 'Accept',
+151 silly registry.get     'content-length': '0',
+151 silly registry.get     'keep-alive': 'timeout=10, max=49',
+151 silly registry.get     connection: 'Keep-Alive' } ]
+152 verbose etag https://registry.npmjs.org/gulp-browserify from cache
+153 http 200 https://registry.npmjs.org/v
+154 silly registry.get cb [ 200,
+154 silly registry.get   { date: 'Mon, 23 Feb 2015 14:58:42 GMT',
+154 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+154 silly registry.get     etag: '"7GM48WNNA304UBG7ZPADOD8UX"',
+154 silly registry.get     'content-type': 'application/json',
+154 silly registry.get     'cache-control': 'max-age=60',
+154 silly registry.get     'content-length': '3153',
+154 silly registry.get     'accept-ranges': 'bytes',
+154 silly registry.get     via: '1.1 varnish',
+154 silly registry.get     age: '0',
+154 silly registry.get     'x-served-by': 'cache-fra1238-FRA',
+154 silly registry.get     'x-cache': 'MISS',
+154 silly registry.get     'x-cache-hits': '0',
+154 silly registry.get     'x-timer': 'S1424703522.884750,VS0,VE102',
+154 silly registry.get     vary: 'Accept',
+154 silly registry.get     'keep-alive': 'timeout=10, max=50',
+154 silly registry.get     connection: 'Keep-Alive' } ]
+155 http 200 https://registry.npmjs.org/gulp-sourcemaps
+156 silly registry.get cb [ 200,
+156 silly registry.get   { date: 'Mon, 23 Feb 2015 14:58:42 GMT',
+156 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+156 silly registry.get     etag: '"D3KEGO49IE2LCGU0TNB8G26XU"',
+156 silly registry.get     'content-type': 'application/json',
+156 silly registry.get     'cache-control': 'max-age=60',
+156 silly registry.get     'content-length': '49596',
+156 silly registry.get     'accept-ranges': 'bytes',
+156 silly registry.get     via: '1.1 varnish',
+156 silly registry.get     age: '14',
+156 silly registry.get     'x-served-by': 'cache-fra1240-FRA',
+156 silly registry.get     'x-cache': 'HIT',
+156 silly registry.get     'x-cache-hits': '1',
+156 silly registry.get     'x-timer': 'S1424703522.899078,VS0,VE0',
+156 silly registry.get     vary: 'Accept',
+156 silly registry.get     'keep-alive': 'timeout=10, max=50',
+156 silly registry.get     connection: 'Keep-Alive' } ]
+157 silly addNameRange number 2 { name: 'gulp-browserify', range: '*', hasData: true }
+158 silly addNameRange versions [ 'gulp-browserify',
+158 silly addNameRange   [ '0.1.0',
+158 silly addNameRange     '0.1.1',
+158 silly addNameRange     '0.1.2',
+158 silly addNameRange     '0.2.2',
+158 silly addNameRange     '0.2.3',
+158 silly addNameRange     '0.2.4',
+158 silly addNameRange     '0.2.5',
+158 silly addNameRange     '0.2.6',
+158 silly addNameRange     '0.2.7',
+158 silly addNameRange     '0.3.0',
+158 silly addNameRange     '0.3.1',
+158 silly addNameRange     '0.3.2',
+158 silly addNameRange     '0.3.3',
+158 silly addNameRange     '0.3.4',
+158 silly addNameRange     '0.4.0',
+158 silly addNameRange     '0.4.1',
+158 silly addNameRange     '0.4.2',
+158 silly addNameRange     '0.4.3',
+158 silly addNameRange     '0.4.4',
+158 silly addNameRange     '0.4.5',
+158 silly addNameRange     '0.4.6',
+158 silly addNameRange     '0.5.0',
+158 silly addNameRange     '0.5.1' ] ]
+159 verbose addNamed [ 'gulp-browserify', '0.5.1' ]
+160 verbose addNamed [ '0.5.1', '0.5.1' ]
+161 silly lockFile 238d2b6c-gulp-browserify-0-5-1 gulp-browserify@0.5.1
+162 verbose lock gulp-browserify@0.5.1 /home/vagrant/.npm/238d2b6c-gulp-browserify-0-5-1.lock
+163 silly addNameRange number 2 { name: 'v', range: '*', hasData: true }
+164 silly addNameRange versions [ 'v', [ '0.0.1', '0.0.9' ] ]
+165 verbose addNamed [ 'v', '0.0.9' ]
+166 verbose addNamed [ '0.0.9', '0.0.9' ]
+167 silly lockFile b8b46cde-v-0-0-9 v@0.0.9
+168 verbose lock v@0.0.9 /home/vagrant/.npm/b8b46cde-v-0-0-9.lock
+169 silly addNameRange number 2 { name: 'gulp-sourcemaps', range: '*', hasData: true }
+170 silly addNameRange versions [ 'gulp-sourcemaps',
+170 silly addNameRange   [ '0.2.0',
+170 silly addNameRange     '0.2.1',
+170 silly addNameRange     '0.3.0',
+170 silly addNameRange     '0.3.1',
+170 silly addNameRange     '0.4.0',
+170 silly addNameRange     '0.4.1',
+170 silly addNameRange     '0.4.2',
+170 silly addNameRange     '0.4.3',
+170 silly addNameRange     '0.4.4',
+170 silly addNameRange     '0.4.5',
+170 silly addNameRange     '0.4.6',
+170 silly addNameRange     '1.0.0',
+170 silly addNameRange     '1.1.0',
+170 silly addNameRange     '1.1.1',
+170 silly addNameRange     '1.1.2',
+170 silly addNameRange     '1.1.3',
+170 silly addNameRange     '1.1.4',
+170 silly addNameRange     '1.1.5',
+170 silly addNameRange     '1.2.0',
+170 silly addNameRange     '1.2.1',
+170 silly addNameRange     '1.2.2',
+170 silly addNameRange     '1.2.3',
+170 silly addNameRange     '1.2.4',
+170 silly addNameRange     '1.2.5',
+170 silly addNameRange     '1.2.6',
+170 silly addNameRange     '1.2.7',
+170 silly addNameRange     '1.2.8',
+170 silly addNameRange     '1.3.0' ] ]
+171 verbose addNamed [ 'gulp-sourcemaps', '1.3.0' ]
+172 verbose addNamed [ '1.3.0', '1.3.0' ]
+173 silly lockFile c9dc25b5-gulp-sourcemaps-1-3-0 gulp-sourcemaps@1.3.0
+174 verbose lock gulp-sourcemaps@1.3.0 /home/vagrant/.npm/c9dc25b5-gulp-sourcemaps-1-3-0.lock
+175 silly lockFile dc56db85-registry-npmjs-org-v-v-0-0-9-tgz https://registry.npmjs.org/v/-/v-0.0.9.tgz
+176 verbose lock https://registry.npmjs.org/v/-/v-0.0.9.tgz /home/vagrant/.npm/dc56db85-registry-npmjs-org-v-v-0-0-9-tgz.lock
+177 silly lockFile 18b35538-cemaps-gulp-sourcemaps-1-3-0-tgz https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.3.0.tgz
+178 verbose lock https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.3.0.tgz /home/vagrant/.npm/18b35538-cemaps-gulp-sourcemaps-1-3-0-tgz.lock
+179 verbose addRemoteTarball [ 'https://registry.npmjs.org/v/-/v-0.0.9.tgz',
+179 verbose addRemoteTarball   '82d63c5e4f3dc2bb7483b460f3b618692ed945f6' ]
+180 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.3.0.tgz',
+180 verbose addRemoteTarball   'f8f72759fc8b1ec68c37365b4714ce239242d054' ]
+181 silly lockFile 238d2b6c-gulp-browserify-0-5-1 gulp-browserify@0.5.1
+182 silly lockFile 238d2b6c-gulp-browserify-0-5-1 gulp-browserify@0.5.1
+183 silly lockFile 24eaa615-gulp-browserify gulp-browserify@
+184 silly lockFile 24eaa615-gulp-browserify gulp-browserify@
+185 info retry fetch attempt 1 at 14:58:42
+186 verbose fetch to= /tmp/npm-5158-haHM2vCZ/registry.npmjs.org/v/-/v-0.0.9.tgz
+187 info retry fetch attempt 1 at 14:58:42
+188 verbose fetch to= /tmp/npm-5158-haHM2vCZ/registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.3.0.tgz
+189 http GET https://registry.npmjs.org/v/-/v-0.0.9.tgz
+190 http GET https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.3.0.tgz
+191 http 404 https://registry.npmjs.org/vinly-buffer
+192 verbose headers { date: 'Mon, 23 Feb 2015 14:58:43 GMT',
+192 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+192 verbose headers   'content-type': 'application/json',
+192 verbose headers   'cache-control': 'max-age=0',
+192 verbose headers   'content-length': '52',
+192 verbose headers   'accept-ranges': 'bytes',
+192 verbose headers   via: '1.1 varnish',
+192 verbose headers   age: '0',
+192 verbose headers   'x-served-by': 'cache-fra1230-FRA',
+192 verbose headers   'x-cache': 'MISS',
+192 verbose headers   'x-cache-hits': '0',
+192 verbose headers   'x-timer': 'S1424703522.888349,VS0,VE179',
+192 verbose headers   'keep-alive': 'timeout=10, max=50',
+192 verbose headers   connection: 'Keep-Alive' }
+193 silly registry.get cb [ 404,
+193 silly registry.get   { date: 'Mon, 23 Feb 2015 14:58:43 GMT',
+193 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+193 silly registry.get     'content-type': 'application/json',
+193 silly registry.get     'cache-control': 'max-age=0',
+193 silly registry.get     'content-length': '52',
+193 silly registry.get     'accept-ranges': 'bytes',
+193 silly registry.get     via: '1.1 varnish',
+193 silly registry.get     age: '0',
+193 silly registry.get     'x-served-by': 'cache-fra1230-FRA',
+193 silly registry.get     'x-cache': 'MISS',
+193 silly registry.get     'x-cache-hits': '0',
+193 silly registry.get     'x-timer': 'S1424703522.888349,VS0,VE179',
+193 silly registry.get     'keep-alive': 'timeout=10, max=50',
+193 silly registry.get     connection: 'Keep-Alive' } ]
+194 silly lockFile 42644352-vinly-buffer vinly-buffer@
+195 silly lockFile 42644352-vinly-buffer vinly-buffer@
+196 http 200 https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+197 silly lockFile 8a0655e2-ulp-uglify-gulp-uglify-1-1-0-tgz https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+198 silly lockFile 8a0655e2-ulp-uglify-gulp-uglify-1-1-0-tgz https://registry.npmjs.org/gulp-uglify/-/gulp-uglify-1.1.0.tgz
+199 silly lockFile 91b67821-gulp-uglify-1-1-0 gulp-uglify@1.1.0
+200 silly lockFile 91b67821-gulp-uglify-1-1-0 gulp-uglify@1.1.0
+201 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+202 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+203 http 200 https://registry.npmjs.org/v/-/v-0.0.9.tgz
+204 http 200 https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.3.0.tgz
+205 silly lockFile 18b35538-cemaps-gulp-sourcemaps-1-3-0-tgz https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.3.0.tgz
+206 silly lockFile 18b35538-cemaps-gulp-sourcemaps-1-3-0-tgz https://registry.npmjs.org/gulp-sourcemaps/-/gulp-sourcemaps-1.3.0.tgz
+207 silly lockFile c9dc25b5-gulp-sourcemaps-1-3-0 gulp-sourcemaps@1.3.0
+208 silly lockFile c9dc25b5-gulp-sourcemaps-1-3-0 gulp-sourcemaps@1.3.0
+209 silly lockFile e21003b7-gulp-sourcemaps gulp-sourcemaps@
+210 silly lockFile e21003b7-gulp-sourcemaps gulp-sourcemaps@
+211 silly lockFile dc56db85-registry-npmjs-org-v-v-0-0-9-tgz https://registry.npmjs.org/v/-/v-0.0.9.tgz
+212 silly lockFile dc56db85-registry-npmjs-org-v-v-0-0-9-tgz https://registry.npmjs.org/v/-/v-0.0.9.tgz
+213 silly lockFile b8b46cde-v-0-0-9 v@0.0.9
+214 silly lockFile b8b46cde-v-0-0-9 v@0.0.9
+215 silly lockFile 992d3292-v v@
+216 silly lockFile 992d3292-v v@
+217 error 404 404 Not Found: vinly-source-stream
+217 error 404
+217 error 404 'vinly-source-stream' is not in the npm registry.
+217 error 404 You should bug the author to publish it
+217 error 404
+217 error 404 Note that you can also install from a
+217 error 404 tarball, folder, or http url, or git url.
+218 error System Linux 3.13.0-30-generic
+219 error command "/usr/bin/node" "/usr/bin/npm" "install" "--save-dev" "gulp-browserify" "v" "vinly-source-stream" "vinly-buffer" "gulp-uglify" "gulp-sourcemaps"
+220 error cwd /home/vagrant/Code/bootcamp-app
+221 error node -v v0.10.33
+222 error npm -v 1.4.28
+223 error code E404
+224 verbose exit [ 1, true ]

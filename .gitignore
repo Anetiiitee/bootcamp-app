@@ -1,4 +1,6 @@
 /vendor/
 composer.phar
-adminer.php
 cov/
+/node_modules/
+/public/css/
+/public/js/
